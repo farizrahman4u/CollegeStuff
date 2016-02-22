@@ -13,7 +13,7 @@ public class MatrixOps
 			print("Enter dimensions of matrix 2 : ");
 			p = readInt();
 			q = readInt();
-			if (n != p && n!=q)
+			if (n != p && (m != p || n != q))
 			{
 				print("Dimension mismatch!");
 			}
